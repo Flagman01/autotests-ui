@@ -21,3 +21,4 @@ with sync_playwright() as playwright:
     title_page_dashboard = page.get_by_test_id('dashboard-toolbar-title-text')
     expect(title_page_dashboard).to_be_visible()
 
+

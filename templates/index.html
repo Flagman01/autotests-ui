@@ -11,12 +11,25 @@
         #h1-text {
             color: blue
         }
+
+        ul > li:nth-child(2) {
+        color: blue
+        }
+
+        h3 {
+            font-size: 30px
+        }
+
+        input[type="text"] {
+            background-color:yellow
+        }
     </style>
 </head>
 <body>
-<div>
+<div class="one">
     <h1 id="h1-text">Заголовок первого уровня</h1>
-    <p>Для современного мира <span style="color: red">экономическая повестка</span> сегодняшнего дня, а также свежий взгляд на привычные вещи —
+    <p>Для современного мира <span style="color: red">экономическая повестка</span> сегодняшнего дня, а также свежий
+        взгляд на привычные вещи —
         безусловно
         открывает новые горизонты для инновационных методов управления процессами!</p>
     <h3 class="h-text">Заголовок третьего уровня</h3>
@@ -25,27 +38,42 @@
         <li>два</li>
         <li>три</li>
     </ul>
-    <table>
-        <thead>
-        <tr>
-            <th>ИД</th>
-            <th>наименование</th>
-            <th>описание</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>1</td>
-            <td>море</td>
-            <td>синее</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>трава</td>
-            <td>зелёная</td>
-        </tr>
-        </tbody>
-    </table>
+    <div class="two">
+        <p>test</p>
+        <p>2</p>
+        <h2>two</h2>
+        <p>not</p>
+        <h4>fourth</h4>
+    </div>
+    <div class="three">
+        <h1 id="h1-text2">Ещё один заголовок высокого уровня</h1>
+        <ul>
+            <li>один</li>
+            <li>два</li>
+            <li>три</li>
+        </ul>
+        <table>
+            <thead>
+            <tr>
+                <th>ИД</th>
+                <th>наименование</th>
+                <th>описание</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>море</td>
+                <td>синее</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>трава</td>
+                <td>зелёная</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
     <a href="https://postgrespro.ru/docs/postgresql/9.6/sql-insert" target="_blank">Postgres Documentation</a>
     <h6 class="h-text">Заголовок шестого уровня</h6>
     <ol>
